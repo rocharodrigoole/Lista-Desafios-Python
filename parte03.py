@@ -1,9 +1,9 @@
 # ATIVIDADE 03
-num = input(int("Digite quantos dolares você possui:"))
-reais = num / 5.70
+num = float(input("Digite quantos dolares você possui:"))
+reais = num * 5
 
-if num != 0:
+if num == 0:
     print("Não é possivel dividr por zero!")
 else:
-    print (f'VocÊ possui {reais} em reais!.')
+    print (f'Você possui {reais} em reais!.')
 

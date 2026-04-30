@@ -1,10 +1,6 @@
 # ATIVIDADE 01
-num1 = input (int('Digite o primeiro numero: ')) 
-num2 = input (int('Digite o segundo numero: '))
+num1 = int(input('Digite o primeiro numero: '))
+num2 = int(input('Digite o segundo numero: '))
 
-resultado = num2 / num1
-
-if num1 !=0 and num2 !=0 and resultado > 10 and resultado < 100 :
-    print(f'{num1} / {num2} = {resultado}')
-else:
-    print("Invalido!")
+resultado = int(num2) / int(num1)
+print(f"o resultado é {resultado:.2f}")

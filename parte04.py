@@ -1,7 +1,7 @@
 # ATIVIDADE 04
-num1 =  input(int("Digite o primeiro numero:"))
-num2 =  input(int("Digite o segundo numero:"))
-num3 =  input(int("Digite o terceiro numero:"))
+num1 =float(input("Digite o primeiro numero: "))
+num2 = float(input("Digite o segundo numero: "))
+num3 = float(input("Digite o terceiro numero: "))
 
-media = num1 + num2 + num3 /3
+media = ((num1) + (num2) + (num3)) / 3
 print("A Média dos numeros escolhidos é:", media)
